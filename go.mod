@@ -23,7 +23,7 @@ require (
 	github.com/google/uuid v1.1.1
 	github.com/gopherjs/gopherjs v0.0.0-20200217142428-fce0ec30dd00 // indirect
 	github.com/gorilla/mux v1.7.3
-        github.com/hyperledger/indy-vdr v0.0.0-20200819164637-e4a00d627d72
+	github.com/hyperledger/indy-vdr/wrappers/golang v0.0.0-20200819164637-e4a00d627d72
 	github.com/kr/pretty v0.1.0 // indirect
 	github.com/minio/sha256-simd v0.1.1 // indirect
 	github.com/mitchellh/mapstructure v1.3.3

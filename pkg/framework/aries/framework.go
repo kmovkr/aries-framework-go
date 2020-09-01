@@ -31,6 +31,9 @@ import (
 	"github.com/hyperledger/aries-framework-go/pkg/vdri"
 	"github.com/hyperledger/aries-framework-go/pkg/vdri/key"
 	"github.com/hyperledger/aries-framework-go/pkg/vdri/peer"
+	"github.com/hyperledger/aries-framework-go/pkg/vdri/indy"
+
+
 )
 
 const (
@@ -380,6 +383,16 @@ func createVDRI(frameworkOpts *Aries) error {
 	k := key.New()
 	opts = append(opts, vdri.WithVDRI(k))
 
+	type args struct {
+		methodName string
+		opts       []Option
+	}
+
+	indyopts := []indy.Option{}
+	indy, _ := indy.New("sov",indyopts...)
+
+
+	opts = append(opts,vdri.WithVDRI(indy))
 	frameworkOpts.vdriRegistry = vdri.New(ctx, opts...)
 
 	return nil
