@@ -9,8 +9,8 @@ go 1.13
 require (
 	github.com/google/uuid v1.1.1
 	github.com/hyperledger/aries-framework-go v0.0.0
-	github.com/mitchellh/mapstructure v1.3.0
-	github.com/stretchr/testify v1.6.1
+	github.com/mitchellh/mapstructure v1.3.2
+	github.com/stretchr/testify v1.5.1
 )
 
 replace github.com/hyperledger/aries-framework-go => ../../
