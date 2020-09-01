@@ -1,7 +1,7 @@
 package indy
 
 import (
-	"github.com/pfeairheller/indy-vdr/wrappers/golang/vdr"
+	"github.com/hyperledger/indy-vdr/wrappers/golang/vdr"
 )
 
 type MockIndyClient struct {

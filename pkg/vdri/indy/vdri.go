@@ -12,7 +12,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/pfeairheller/indy-vdr/wrappers/golang/vdr"
+	"github.com/hyperledger/indy-vdr/wrappers/golang/vdr"
 
 	"github.com/hyperledger/aries-framework-go/pkg/doc/did"
 	vdriapi "github.com/hyperledger/aries-framework-go/pkg/framework/aries/api/vdri"

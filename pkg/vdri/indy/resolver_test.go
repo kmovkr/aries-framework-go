@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/pfeairheller/indy-vdr/wrappers/golang/vdr"
+	"github.com/hyperledger/indy-vdr/wrappers/golang/vdr"
 	"github.com/stretchr/testify/require"
 
 	"github.com/hyperledger/aries-framework-go/pkg/framework/aries/api/vdri"

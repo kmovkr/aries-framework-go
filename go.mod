@@ -23,6 +23,7 @@ require (
 	github.com/google/uuid v1.1.1
 	github.com/gopherjs/gopherjs v0.0.0-20200217142428-fce0ec30dd00 // indirect
 	github.com/gorilla/mux v1.7.3
+        github.com/hyperledger/indy-vdr v0.0.0-20200819164637-e4a00d627d72
 	github.com/kr/pretty v0.1.0 // indirect
 	github.com/minio/sha256-simd v0.1.1 // indirect
 	github.com/mitchellh/mapstructure v1.3.3
@@ -31,7 +32,6 @@ require (
 	github.com/multiformats/go-multihash v0.0.13
 	github.com/onsi/ginkgo v1.10.1 // indirect
 	github.com/onsi/gomega v1.7.0 // indirect
-	github.com/hyperledger/indy-vdr/wrappers/golang v0.0.0-20200721120153-a6a48010aad0
 	github.com/piprate/json-gold v0.3.0
 	github.com/pkg/errors v0.9.1
 	github.com/rs/cors v1.7.0

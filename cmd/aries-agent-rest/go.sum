@@ -143,7 +143,7 @@ github.com/otiai10/copy v1.0.2/go.mod h1:c7RpqBkwMom4bYTSkLSym4VSJz/XtncWRAj/J4P
 github.com/otiai10/curr v0.0.0-20150429015615-9b4961190c95/go.mod h1:9qAhocn7zKJG+0mI8eUu6xqkFDYS2kb2saOteoSB3cE=
 github.com/otiai10/mint v1.3.0/go.mod h1:F5AjcsTsWUqX+Na9fpHb52P8pcRX2CI6A3ctIT91xUo=
 github.com/pelletier/go-toml v1.2.0/go.mod h1:5z9KED0ma1S8pY6P1sdut58dfprrGBbd/94hg7ilaic=
-github.com/pfeairheller/indy-vdr/wrappers/golang v0.0.0-20200721120153-a6a48010aad0/go.mod h1:VyTlXJip4G7bntWOzEK/NEPlD5lRHtx9bFDGL0sESvM=
+github.com/hyperledger/indy-vdr/wrappers/golang v0.0.0-20200819164637-e4a00d627d72/go.mod h1:VyTlXJip4G7bntWOzEK/NEPlD5lRHtx9bFDGL0sESvM=
 github.com/piprate/json-gold v0.3.0 h1:a1vHx7Q1jOO1pjCtKwTI/WCzwaQwRt9VM7apK2uy200=
 github.com/piprate/json-gold v0.3.0/go.mod h1:OK1z7UgtBZk06n2cDE2OSq1kffmjFFp5/2yhLLCz9UM=
 github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=

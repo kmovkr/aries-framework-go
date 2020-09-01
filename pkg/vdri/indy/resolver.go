@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcutil/base58"
-	"github.com/pfeairheller/indy-vdr/wrappers/golang/vdr"
+	"github.com/hyperledger/indy-vdr/wrappers/golang/vdr"
 
 	diddoc "github.com/hyperledger/aries-framework-go/pkg/doc/did"
 	vdriapi "github.com/hyperledger/aries-framework-go/pkg/framework/aries/api/vdri"
